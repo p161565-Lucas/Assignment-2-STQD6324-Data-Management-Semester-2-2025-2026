@@ -240,6 +240,45 @@ Verify analytical outputs, Cassandra validation results, and generated visualiza
 
 ---
 
+---
+
+## Results Screenshots
+
+### Task 1 – Average Rating for Each Movie
+
+![Task 1](screenshots/task1_average_rating.png)
+
+---
+
+### Task 2 – Top 10 Highest-Rated Movies
+
+![Task 2](screenshots/task2_top10_movies.png)
+
+---
+
+### Task 3 – Favourite Genres of Active Users
+
+![Task 3](screenshots/task3_favourite_genre.png)
+
+---
+
+### Task 4 – Users Younger Than 20 Years Old
+
+![Task 4](screenshots/task4_under20_users.png)
+
+---
+
+### Task 5 – Scientists Aged Between 30 and 40 Years Old
+
+![Task 5](screenshots/task5_scientists.png)
+
+---
+
+### Cassandra Validation
+
+![Cassandra Validation](screenshots/cassandra_validation.png)
+
+
 ## Conclusion
 
 This project successfully demonstrates a complete big data analytics workflow using Apache Spark, Hadoop HDFS, and Apache Cassandra.
