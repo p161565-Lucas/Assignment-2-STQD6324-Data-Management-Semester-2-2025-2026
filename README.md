@@ -89,7 +89,7 @@ Data Cleaning & Preprocessing
         ↓
 Spark SQL Analytics
         ↓
-Store Results in Cassandra
+Cassandra Storage Layer
         ↓
 Read Data Back from Cassandra
         ↓
@@ -158,13 +158,13 @@ This satisfies all Cassandra integration requirements specified in the assignmen
 
 ### MongoDB Implementation
 
-All analytical tasks were additionally implemented using MongoDB to demonstrate document-oriented NoSQL data processing.
+Stores analytical results in JSON format, demonstrating flexible schema design and document-based storage capabilities.
 
 ### HBase Implementation
 
-The same analytical tasks were implemented using HBase to explore distributed column-oriented storage solutions.
+Provides column-oriented distributed storage with row-key based access, suitable for large-scale sparse datasets.
 
-These extensions go beyond the minimum assignment requirements and provide additional evidence of multi-database integration capability.
+These extensions demonstrate understanding of multiple NoSQL paradigms.
 
 ---
 
