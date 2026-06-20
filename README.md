@@ -56,29 +56,6 @@ https://grouplens.org/datasets/movielens/
 | Apache Cassandra | 4.0.8   |
 | Apache Zeppelin  | 0.10.1  |
 
-## ⚙️ Environment Setup
-
-### Prerequisites
-
-Before running the Zeppelin notebook, ensure the following services are running:
-
-| Service | Startup Command |
-|---------|-----------------|
-| Hadoop (HDFS) | `start-dfs.sh` and `start-yarn.sh` |
-| Cassandra | `sudo systemctl start cassandra` or `cassandra -f` |
-| Zeppelin | `./bin/zeppelin-daemon.sh start` |
-
-### Zeppelin Interpreter Configuration
-
-In Apache Zeppelin, import the notebook from `Assignment02.json` and use the **%spark** interpreter.
-
-Add the following Spark configuration to enable Cassandra integration:
-
-```properties
-spark.jars.packages com.datastax.spark:spark-cassandra-connector_2.12:3.3.0
-spark.cassandra.connection.host 127.0.0.1
-spark.cassandra.connection.port 9042
-
 ---
 
 ## Architecture Diagram
