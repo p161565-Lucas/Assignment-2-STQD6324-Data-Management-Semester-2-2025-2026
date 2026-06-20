@@ -56,6 +56,8 @@ https://grouplens.org/datasets/movielens/
 | Apache Cassandra | 4.0.8   |
 | Apache Zeppelin  | 0.10.1  |
 
+## ⚙️ Environment Setup
+
 ### Prerequisites
 
 Before running the Zeppelin notebook, ensure the following services are running:
