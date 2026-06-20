@@ -1,0 +1,7 @@
+# requirements.txt
+# For PySpark (if using Python version)
+
+pyspark==3.3.0
+cassandra-driver==3.28.0
+pandas==1.5.3
+numpy==1.24.3
